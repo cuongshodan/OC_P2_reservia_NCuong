@@ -1,0 +1,35 @@
+/*  couleurs charte : bleu #0065FC
+    version plus claire    #DEEBFF
+    gris pour le fond :    #F2F2F2
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#blocPage {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#navivation {
+    display: flex;
+
+}
+
+#navigation img {
+    display: flex;
+    border: solid red 2px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    border: solid red 2px;
+}
+
+nav li {
+    margin-right: 70px;
+}
+
