@@ -5,31 +5,182 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 #blocPage {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
-#navivation {
+#navigation {
     display: flex;
-
+    justify-content: space-between;
+   
+    margin: 0px;
 }
 
 #navigation img {
-    display: flex;
-    border: solid red 2px;
-
+    
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    border: solid red 2px;
+    color: #0065FC;
+    font-weight: bold;
+    margin: 0px;
+   
 }
 
 nav li {
-    margin-right: 70px;
+    padding: 30px;
+    
 }
+
+nav li:hover {
+    border-top: solid #0065FC 3px;
+}
+
+#formSubmitButton {
+    display: flex;
+}
+
+#formSubmitButton form input{
+    border: solid 1px #F2F2F2;
+    font-weight: bold;
+    height: 35px;
+}
+
+#mapMarker {
+    width: 40px;
+    height: 35px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+}
+
+#mapMarker img {
+    width: 15px;
+    margin: auto;
+}
+
+
+
+#searchButton {
+    font-weight: bold;
+    color: white;
+    background-color: #0065FC;
+    padding: 10px;
+    width: 90px;
+    border-radius: 0 10px 10px 0px;
+}
+
+#listFiltre {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+#listFiltre ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.filtre {
+    border: solid 2px #DEEBFF;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    border-radius: 100px;
+    
+
+}
+
+.icons {
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.filtre .filtreChoice{
+    margin: auto;
+    padding: 10px;
+}
+
+.icons img {
+    width: 25px;
+    margin: auto;
+
+}
+
+article {
+    background-color: lightgrey;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#listHotels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.hotel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+    border: solid 2px white;
+    margin-bottom: 30px;
+
+}
+
+.hotel img {
+    border-radius: 20px 20px 0 0;
+    height: 130px;
+    object-fit: cover;
+    
+}
+
+.hotel h4 {
+    margin: 5px;
+    
+}
+
+.hotel p {
+    margin: 2px;
+  
+}
+
+.stars {
+    display: flex;
+}
+
+.blueStar {
+    display: block;
+    width: 20px;
+    height: 30px;
+    
+    background-image: url(/icons/star-solid.svg);
+    background-repeat: no-repeat;
+}
+
+.emptyStar {
+    display: block;
+    width: 20px;
+    height: 30px;
+    
+    background-image: url(/icons/star-solid-empty.svg);
+    background-repeat: no-repeat;
+}
+
 
