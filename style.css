@@ -9,7 +9,7 @@ body {
 }
 
 #blocPage {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -118,18 +118,26 @@ nav li:hover {
 
 }
 
+#section1 {
+    display: flex;
+}
+
 article {
     background-color: lightgrey;
-    width: 800px;
-    height: 600px;
+   
+    width: 900px;
+    height: 595px;
     border-radius: 20px;
-    padding: 30px;
+    padding: 0px 30px 0 30px;
+    margin: 0px 20px 20px 0;
 }
 
 #listHotels {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+   
+
 
 }
 
@@ -139,7 +147,7 @@ article {
     background-color: white;
     width: 250px;
     border-radius: 20px;
-    border: solid 2px white;
+    border: 3px solid white;
     margin-bottom: 30px;
 
 }
@@ -152,9 +160,19 @@ article {
 }
 
 .hotel h4 {
-    margin: 5px;
-    
+    margin: 1px;
+ 
 }
+
+article h3 {
+    margin-top: 30px;
+}
+
+#showMore {
+    margin: 0;
+    ;
+}
+
 
 .hotel p {
     margin: 2px;
@@ -183,4 +201,120 @@ article {
     background-repeat: no-repeat;
 }
 
+aside {
+    background-color: lightgrey;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 595px;
+    border-radius: 20px;
+    align-content: center;
+}
 
+.popular {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    border: white 2px solid;
+    margin: 15px;
+    
+}
+
+.popular img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+.popular .popularInfo {
+    margin-left: 10px; 
+}
+
+aside h3 {
+    margin: 30px 0px 5px 25px;
+}
+
+.popular h4 {
+    margin: 5px 0 0 0;
+}
+.popular p {
+    margin: 5px 0 0 0;
+}
+
+.popularInfo .stars {
+    margin-top: 20px
+}
+
+#infoActivity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 450px;
+    
+}
+
+#infoPopular {
+    display: flex;
+    justify-content: space-between;
+}
+
+#infoPopular img {
+    width: 30px;
+    margin: 30px;
+}
+
+.longImg {
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    height: 370px;
+    box-shadow: 1px 3px 8px lightgray;
+
+}
+
+.longImg img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.shortImg {
+    background-color: white;
+    border-radius: 20px;
+    height: 175px;
+    margin: 20px;
+    box-shadow: 1px 3px 8px lightgray;
+}
+
+.shortImg img {
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+#section2 p {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#footerBlock {
+    background-color: lightgrey;
+}
+
+footer { 
+    width: 1200px;
+    margin: auto;
+}
+
+#footerContent {
+    display: flex;
+}
+
+#footerContent div {
+    margin-right: 160px;
+}
