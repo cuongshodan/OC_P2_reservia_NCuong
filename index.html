@@ -17,7 +17,12 @@
 
             <!--L'entête avec logo Reservia + bar de navigation-->
             <div id="navigation">
-                <img src="images/logo/Reservia.svg">
+                <div id="inscription">
+                    <img src="images/logo/Reservia.svg">
+                    <a href=#>S'inscrire</a>
+
+                </div>
+
                 <nav>
                     <ul>
                         <li>Hébergements</li>
@@ -29,6 +34,7 @@
 
 
             <div>
+                
                 <h2>Trouver votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ville ou en pleine nature</p>
 
@@ -44,65 +50,68 @@
                     <div id="searchButton">
                         Rechercher
                     </div>
+                    <div id="searchButtonMobile">
+                        <img src="icons/search-solid.svg">
+                    </div>
                 </div>
 
-
-                <div id="listFiltre">
-                    <p>Filtres</p>
-                    <ul>
-                        <li>
-                            <div class="filtre">
-                                <div class="icons">
-                                    <img src="icons/money-bill-wave-solid.svg" alt="">
+                <div id="filterGroup">
+                    <h3>Filtres</h3>
+                    <div id="listFiltre">
+                        <ul>
+                            <li>
+                                <div class="filtre">
+                                    <div class="icons">
+                                        <img src="icons/money-bill-wave-solid.svg" alt="">
+                                    </div>
+                                    <div class="filtreChoice">
+                                        Economique
+                                    </div>
+    
                                 </div>
-                                <div class="filtreChoice">
-                                    Economique
+                            </li>
+                            <li>
+                                <div class="filtre">
+                                    <div class="icons">
+                                        <img src="icons/child-solid.svg" alt="">
+                                    </div>
+                                    <div class="filtreChoice">
+                                        Familial
+                                    </div>
+    
                                 </div>
-
-                            </div>
-                        </li>
-
-
-                        <li>
-                            <div class="filtre">
-                                <div class="icons">
-                                    <img src="icons/child-solid.svg" alt="">
+                            </li>
+                            <li>
+                                <div class="filtre">
+                                    <div class="icons">
+                                        <img src="icons/heart-solid.svg" alt="">
+                                    </div>
+                                    <div class="filtreChoice">
+                                        Romantique
+                                    </div>
+    
                                 </div>
-                                <div class="filtreChoice">
-                                    Familial
+                            </li>
+                            <li>
+                                <div class="filtre">
+                                    <div class="icons">
+                                        <img src="icons/dog-solid.svg" alt="">
+                                    </div>
+                                    <div class="filtreChoice">
+                                        Animaux autorisés
+                                    </div>
+    
                                 </div>
-
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="filtre">
-                                <div class="icons">
-                                    <img src="icons/heart-solid.svg" alt="">
-                                </div>
-                                <div class="filtreChoice">
-                                    Romantique
-                                </div>
-
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="filtre">
-                                <div class="icons">
-                                    <img src="icons/dog-solid.svg" alt="">
-                                </div>
-                                <div class="filtreChoice">
-                                    Animaux autorisés
-                                </div>
-
-                            </div>
-                        </li>
-
-
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                
+                <div id=info>
+                    <img src="/icons/info-solid.svg">
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+
             </div>
 
         </header>
@@ -196,7 +205,7 @@
                     <h3>Les plus populaires</h3>
                     <img src="icons/chart-line-solid.svg" alt="">
                 </div>
-                
+
 
                 <div class="popular">
                     <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
@@ -292,8 +301,8 @@
 
         </section>
 
-
     </div>
+
     <div id="footerBlock">
         <footer>
             <div id="footerContent">
@@ -313,10 +322,10 @@
                     <p>Centre d'aide</p>
                     <p>Nous contacter</p>
                 </div>
-            </footer>
-            </div>
-            
+        </footer>
     </div>
+
+
 
 </body>
 
