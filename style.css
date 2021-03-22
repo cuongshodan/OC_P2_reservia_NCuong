@@ -16,6 +16,7 @@ body {
 #navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0px;
 }
 
@@ -233,7 +234,7 @@ aside {
     object-fit: cover;
 }
 
-.popular .popularInfo {
+#popularInfo {
     margin-left: 10px;
 }
 
@@ -528,10 +529,6 @@ footer {
     #footerContent div {
         margin-right: 0;
     }
-
-
-
-
 
 
 }
