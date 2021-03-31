@@ -171,7 +171,7 @@ h1 + p {
 article {
     background-color: #F2F2F2;
     width: 900px;
-    height: 595px;
+    height: 630px;
     border-radius: 20px;
     padding: 0px 30px 0 30px;
     margin: 0px 20px 20px 0;
@@ -191,6 +191,7 @@ article {
     border-radius: 20px;
     border: 3px solid white;
     margin-bottom: 30px;
+    box-shadow: 1px 3px 8px lightgray;
 }
 
 .hotel img {
@@ -209,7 +210,7 @@ article h3 {
 }
 
 #showMore {
-    margin: 0;
+    margin: 0px
     
 }
 
@@ -249,7 +250,7 @@ aside {
     align-content: center;
     background-color: #F2F2F2;
     width: 350px;
-    height: 595px;
+    height: 630px;
     border-radius: 20px;
     
 }
@@ -261,6 +262,7 @@ aside {
     width: 285px;
     border: white 2px solid;
     margin: 15px;
+    box-shadow: 1px 3px 8px lightgray;
 }
 
 .popular img {
@@ -268,10 +270,6 @@ aside {
     height: 120px;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
-}
-
-#popularInfo {
-    margin-left: 10px;
 }
 
 aside h3 {
@@ -300,17 +298,22 @@ aside h3 {
     height: 400px;
 }
 
-#infoPopular {
+#infoPopularTitel {
     display: flex;
     justify-content: space-between;
+
 }
 
-#infoPopular img {
+#infoPopularTitel img {
     width: 30px;
     margin: 30px;
 }
 
 /*section avec destinations et activités suggérés*/
+
+#section2 {
+    margin: 30px 0 50px 0;
+}
 
 .longImg {
     background-color: white;
@@ -347,6 +350,7 @@ aside h3 {
     margin-left: 15px;
 }
 
+/*Pied page avec infos*/
 #footerBlock {
     background-color: #F2F2F2;
 }
@@ -364,6 +368,9 @@ footer {
 #footerContent div {
     margin-right: 160px;
 }
+
+
+/*responsive*/
 
 @media only screen and (max-width: 500px) {
     #blocPage {
@@ -513,6 +520,10 @@ footer {
         align-content: flex-start;
     }
 
+    #section2 {
+        margin: 50px 0 50px 0;
+    }
+
     .longImg {
         height: 180px;
         margin: 20px 20px;
@@ -541,7 +552,7 @@ footer {
         height: 120px;
     }
 
-    /*Pied page avec infos*/
+    
     #footerBlock {
         margin-top: 20px;
     }
