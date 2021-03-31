@@ -10,7 +10,7 @@ body {
 
 #blocPage {
     width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 #navigation {
@@ -32,8 +32,6 @@ body {
 nav ul {
     list-style-type: none;
     display: flex;
-    color: #0065FC;
-    font-weight: bold;
     margin: 0px;
 }
 
@@ -43,6 +41,23 @@ nav li {
 
 nav li:hover {
     border-top: solid #0065FC 3px;
+    padding:28px;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065FC;
+}
+
+h1 {
+    margin-bottom: 0;
+    
+}
+
+h1 + p {
+     margin-top: 5px;
 }
 
 #formSubmitButton {
@@ -75,6 +90,10 @@ nav li:hover {
     padding: 10px;
     width: 90px;
     border-radius: 0 10px 10px 0px;
+}
+#searchButton a{
+    text-decoration: none;
+    color: white;
 }
 
 #listFiltre {
